@@ -1,15 +1,15 @@
 /**
  */
-package com.oscar.opm.model.tests;
-
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMProceduralLink;
+package opm.tests;
 
 import junit.textui.TestRunner;
 
+import opm.OPMProceduralLink;
+import opm.OpmFactory;
+
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Procedural Link</b></em>'.
+ * A test case for the model object '<em><b>OPM Procedural Link</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
@@ -25,7 +25,7 @@ public class OPMProceduralLinkTest extends OPMLinkTest {
 	}
 
 	/**
-	 * Constructs a new Procedural Link test case with the given name.
+	 * Constructs a new OPM Procedural Link test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -35,7 +35,7 @@ public class OPMProceduralLinkTest extends OPMLinkTest {
 	}
 
 	/**
-	 * Returns the fixture for this Procedural Link test case.
+	 * Returns the fixture for this OPM Procedural Link test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -53,7 +53,7 @@ public class OPMProceduralLinkTest extends OPMLinkTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMProceduralLink());
+		setFixture(OpmFactory.eINSTANCE.createOPMProceduralLink());
 	}
 
 	/**

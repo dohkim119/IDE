@@ -1,21 +1,22 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMNode;
 import junit.textui.TestRunner;
+
+import opm.OPMNode;
+import opm.OpmFactory;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Node</b></em>'.
+ * A test case for the model object '<em><b>OPM Node</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following operations are tested:
  * <ul>
- *   <li>{@link com.oscar.opm.model.OPMNode#getOutgoingStructuralLinks() <em>Get Outgoing Structural Links</em>}</li>
- *   <li>{@link com.oscar.opm.model.OPMNode#getIncomingStructuralLinks() <em>Get Incoming Structural Links</em>}</li>
- *   <li>{@link com.oscar.opm.model.OPMNode#getOpd() <em>Get Opd</em>}</li>
+ *   <li>{@link opm.OPMNode#getOutgoingStructuralLinks() <em>Get Outgoing Structural Links</em>}</li>
+ *   <li>{@link opm.OPMNode#getIncomingStructuralLinks() <em>Get Incoming Structural Links</em>}</li>
+ *   <li>{@link opm.OPMNode#getOpd() <em>Get Opd</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -32,7 +33,7 @@ public class OPMNodeTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Constructs a new Node test case with the given name.
+	 * Constructs a new OPM Node test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -42,7 +43,7 @@ public class OPMNodeTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Returns the fixture for this Node test case.
+	 * Returns the fixture for this OPM Node test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -60,7 +61,7 @@ public class OPMNodeTest extends OPMContainerTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMNode());
+		setFixture(OpmFactory.eINSTANCE.createOPMNode());
 	}
 
 	/**
@@ -75,10 +76,10 @@ public class OPMNodeTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Tests the '{@link com.oscar.opm.model.OPMNode#getOutgoingStructuralLinks() <em>Get Outgoing Structural Links</em>}' operation.
+	 * Tests the '{@link opm.OPMNode#getOutgoingStructuralLinks() <em>Get Outgoing Structural Links</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.oscar.opm.model.OPMNode#getOutgoingStructuralLinks()
+	 * @see opm.OPMNode#getOutgoingStructuralLinks()
 	 * @generated
 	 */
 	public void testGetOutgoingStructuralLinks() {
@@ -88,10 +89,10 @@ public class OPMNodeTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Tests the '{@link com.oscar.opm.model.OPMNode#getIncomingStructuralLinks() <em>Get Incoming Structural Links</em>}' operation.
+	 * Tests the '{@link opm.OPMNode#getIncomingStructuralLinks() <em>Get Incoming Structural Links</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.oscar.opm.model.OPMNode#getIncomingStructuralLinks()
+	 * @see opm.OPMNode#getIncomingStructuralLinks()
 	 * @generated
 	 */
 	public void testGetIncomingStructuralLinks() {
@@ -101,10 +102,10 @@ public class OPMNodeTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Tests the '{@link com.oscar.opm.model.OPMNode#getOpd() <em>Get Opd</em>}' operation.
+	 * Tests the '{@link opm.OPMNode#getOpd() <em>Get Opd</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.oscar.opm.model.OPMNode#getOpd()
+	 * @see opm.OPMNode#getOpd()
 	 * @generated
 	 */
 	public void testGetOpd() {

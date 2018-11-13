@@ -1,12 +1,13 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
-import com.oscar.opm.model.OPMContainer;
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMPackage;
 import java.io.File;
 import java.io.IOException;
+
+import opm.OPMContainer;
+import opm.OpmFactory;
+import opm.OpmPackage;
 
 import org.eclipse.emf.common.util.Diagnostic;
 import org.eclipse.emf.common.util.URI;
@@ -19,7 +20,7 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 
 import org.eclipse.emf.ecore.util.Diagnostician;
-import org.eclipse.emf.ecore.xmi.impl.RootXMLContentHandlerImpl;
+
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
 /**
@@ -28,7 +29,7 @@ import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
  * <!-- end-user-doc -->
  * @generated
  */
-public class OPMExample {
+public class OpmExample {
 	/**
 	 * <!-- begin-user-doc -->
 	 * Load all the argument file paths or URIs as instances of the model.
@@ -41,30 +42,25 @@ public class OPMExample {
 		//
 		ResourceSet resourceSet = new ResourceSetImpl();
 		
-		// Register the appropriate resource factory to handle the content type.
+		// Register the appropriate resource factory to handle all file extensions.
 		//
-		resourceSet.getResourceFactoryRegistry().getContentTypeToFactoryMap().put
-			(OPMPackage.eCONTENT_TYPE,
+		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put
+			(Resource.Factory.Registry.DEFAULT_EXTENSION, 
 			 new XMIResourceFactoryImpl());
-		
-		// Register the appropriate content handler for all file extensions and any element from the package's namespace.
-		//
-		resourceSet.getURIConverter().getContentHandlers().add
-			(new RootXMLContentHandlerImpl(OPMPackage.eCONTENT_TYPE, null, null, OPMPackage.eNS_URI, null));
 
 		// Register the package to ensure it is available during loading.
 		//
 		resourceSet.getPackageRegistry().put
-			(OPMPackage.eNS_URI, 
-			 OPMPackage.eINSTANCE);
+			(OpmPackage.eNS_URI, 
+			 OpmPackage.eINSTANCE);
         
 		// If there are no arguments, emit an appropriate usage message.
 		//
 		if (args.length == 0) {
 			System.out.println("Enter a list of file paths or URIs that have content like this:");
 			try {
-				Resource resource = resourceSet.createResource(URI.createURI("http:///My.xml"), OPMPackage.eCONTENT_TYPE);
-				OPMContainer root = OPMFactory.eINSTANCE.createOPMContainer();
+				Resource resource = resourceSet.createResource(URI.createURI("http:///My.opm"));
+				OPMContainer root = OpmFactory.eINSTANCE.createOPMContainer();
 				resource.getContents().add(root);
 				resource.save(System.out, null);
 			}
@@ -122,4 +118,4 @@ public class OPMExample {
 		}
 	}
 
-} //OPMExample
+} //OpmExample

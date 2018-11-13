@@ -1,24 +1,24 @@
 /**
  */
-package com.oscar.opm.model.tests;
-
-import com.oscar.opm.model.OPMContainer;
-import com.oscar.opm.model.OPMFactory;
+package opm.tests;
 
 import junit.framework.TestCase;
 
 import junit.textui.TestRunner;
 
+import opm.OPMContainer;
+import opm.OpmFactory;
+
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Container</b></em>'.
+ * A test case for the model object '<em><b>OPM Container</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
 public class OPMContainerTest extends TestCase {
 
 	/**
-	 * The fixture for this Container test case.
+	 * The fixture for this OPM Container test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -35,7 +35,7 @@ public class OPMContainerTest extends TestCase {
 	}
 
 	/**
-	 * Constructs a new Container test case with the given name.
+	 * Constructs a new OPM Container test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -45,7 +45,7 @@ public class OPMContainerTest extends TestCase {
 	}
 
 	/**
-	 * Sets the fixture for this Container test case.
+	 * Sets the fixture for this OPM Container test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -55,7 +55,7 @@ public class OPMContainerTest extends TestCase {
 	}
 
 	/**
-	 * Returns the fixture for this Container test case.
+	 * Returns the fixture for this OPM Container test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -72,7 +72,7 @@ public class OPMContainerTest extends TestCase {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMContainer());
+		setFixture(OpmFactory.eINSTANCE.createOPMContainer());
 	}
 
 	/**

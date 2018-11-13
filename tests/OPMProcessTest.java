@@ -1,15 +1,15 @@
 /**
  */
-package com.oscar.opm.model.tests;
-
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMProcess;
+package opm.tests;
 
 import junit.textui.TestRunner;
 
+import opm.OPMProcess;
+import opm.OpmFactory;
+
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Process</b></em>'.
+ * A test case for the model object '<em><b>OPM Process</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
@@ -25,7 +25,7 @@ public class OPMProcessTest extends OPMThingTest {
 	}
 
 	/**
-	 * Constructs a new Process test case with the given name.
+	 * Constructs a new OPM Process test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -35,7 +35,7 @@ public class OPMProcessTest extends OPMThingTest {
 	}
 
 	/**
-	 * Returns the fixture for this Process test case.
+	 * Returns the fixture for this OPM Process test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -53,7 +53,7 @@ public class OPMProcessTest extends OPMThingTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMProcess());
+		setFixture(OpmFactory.eINSTANCE.createOPMProcess());
 	}
 
 	/**

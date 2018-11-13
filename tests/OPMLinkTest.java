@@ -1,24 +1,24 @@
 /**
  */
-package com.oscar.opm.model.tests;
-
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMLink;
+package opm.tests;
 
 import junit.framework.TestCase;
 
 import junit.textui.TestRunner;
 
+import opm.OPMLink;
+import opm.OpmFactory;
+
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Link</b></em>'.
+ * A test case for the model object '<em><b>OPM Link</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
 public class OPMLinkTest extends TestCase {
 
 	/**
-	 * The fixture for this Link test case.
+	 * The fixture for this OPM Link test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -35,7 +35,7 @@ public class OPMLinkTest extends TestCase {
 	}
 
 	/**
-	 * Constructs a new Link test case with the given name.
+	 * Constructs a new OPM Link test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -45,7 +45,7 @@ public class OPMLinkTest extends TestCase {
 	}
 
 	/**
-	 * Sets the fixture for this Link test case.
+	 * Sets the fixture for this OPM Link test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -55,7 +55,7 @@ public class OPMLinkTest extends TestCase {
 	}
 
 	/**
-	 * Returns the fixture for this Link test case.
+	 * Returns the fixture for this OPM Link test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -72,7 +72,7 @@ public class OPMLinkTest extends TestCase {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMLink());
+		setFixture(OpmFactory.eINSTANCE.createOPMLink());
 	}
 
 	/**

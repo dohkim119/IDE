@@ -1,14 +1,15 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMThing;
 import junit.textui.TestRunner;
+
+import opm.OPMThing;
+import opm.OpmFactory;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Thing</b></em>'.
+ * A test case for the model object '<em><b>OPM Thing</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
@@ -24,7 +25,7 @@ public class OPMThingTest extends OPMNodeTest {
 	}
 
 	/**
-	 * Constructs a new Thing test case with the given name.
+	 * Constructs a new OPM Thing test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -34,7 +35,7 @@ public class OPMThingTest extends OPMNodeTest {
 	}
 
 	/**
-	 * Returns the fixture for this Thing test case.
+	 * Returns the fixture for this OPM Thing test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -52,7 +53,7 @@ public class OPMThingTest extends OPMNodeTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMThing());
+		setFixture(OpmFactory.eINSTANCE.createOPMThing());
 	}
 
 	/**

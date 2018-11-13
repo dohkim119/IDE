@@ -1,6 +1,6 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -9,11 +9,11 @@ import junit.textui.TestRunner;
 
 /**
  * <!-- begin-user-doc -->
- * A test suite for the '<em><b>OPM</b></em>' model.
+ * A test suite for the '<em><b>Opm</b></em>' model.
  * <!-- end-user-doc -->
  * @generated
  */
-public class OPMAllTests extends TestSuite {
+public class OpmAllTests extends TestSuite {
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -30,8 +30,8 @@ public class OPMAllTests extends TestSuite {
 	 * @generated
 	 */
 	public static Test suite() {
-		TestSuite suite = new OPMAllTests("OPM Tests");
-		suite.addTest(OPMTests.suite());
+		TestSuite suite = new OpmAllTests("Opm Tests");
+		suite.addTest(OpmTests.suite());
 		return suite;
 	}
 
@@ -40,8 +40,8 @@ public class OPMAllTests extends TestSuite {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public OPMAllTests(String name) {
+	public OpmAllTests(String name) {
 		super(name);
 	}
 
-} //OPMAllTests
+} //OpmAllTests

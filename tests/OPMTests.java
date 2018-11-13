@@ -1,6 +1,6 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -13,7 +13,7 @@ import junit.textui.TestRunner;
  * <!-- end-user-doc -->
  * @generated
  */
-public class OPMTests extends TestSuite {
+public class OpmTests extends TestSuite {
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -30,13 +30,11 @@ public class OPMTests extends TestSuite {
 	 * @generated
 	 */
 	public static Test suite() {
-		TestSuite suite = new OPMTests("opm Tests");
+		TestSuite suite = new OpmTests("opm Tests");
 		suite.addTestSuite(OPMNodeTest.class);
 		suite.addTestSuite(OPMThingTest.class);
 		suite.addTestSuite(OPMObjectTest.class);
 		suite.addTestSuite(OPMProcessTest.class);
-		suite.addTestSuite(OPMStructuralLinkAggregatorTest.class);
-		suite.addTestSuite(OscarCodeTest.class);
 		return suite;
 	}
 
@@ -45,8 +43,8 @@ public class OPMTests extends TestSuite {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public OPMTests(String name) {
+	public OpmTests(String name) {
 		super(name);
 	}
 
-} //OPMTests
+} //OpmTests

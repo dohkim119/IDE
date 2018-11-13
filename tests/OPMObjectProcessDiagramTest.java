@@ -1,14 +1,15 @@
 /**
  */
-package com.oscar.opm.model.tests;
+package opm.tests;
 
-import com.oscar.opm.model.OPMFactory;
-import com.oscar.opm.model.OPMObjectProcessDiagram;
 import junit.textui.TestRunner;
+
+import opm.OPMObjectProcessDiagram;
+import opm.OpmFactory;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Object Process Diagram</b></em>'.
+ * A test case for the model object '<em><b>OPM Object Process Diagram</b></em>'.
  * <!-- end-user-doc -->
  * @generated
  */
@@ -24,7 +25,7 @@ public class OPMObjectProcessDiagramTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Constructs a new Object Process Diagram test case with the given name.
+	 * Constructs a new OPM Object Process Diagram test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -34,7 +35,7 @@ public class OPMObjectProcessDiagramTest extends OPMContainerTest {
 	}
 
 	/**
-	 * Returns the fixture for this Object Process Diagram test case.
+	 * Returns the fixture for this OPM Object Process Diagram test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -52,7 +53,7 @@ public class OPMObjectProcessDiagramTest extends OPMContainerTest {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(OPMFactory.eINSTANCE.createOPMObjectProcessDiagram());
+		setFixture(OpmFactory.eINSTANCE.createOPMObjectProcessDiagram());
 	}
 
 	/**
