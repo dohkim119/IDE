@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opm:OPMObjectProcessDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opm="www.vainolo.com/phd/opm">
+  <links source="//@things.0" target="//@things.1"/>
+  <things xsi:type="opm:OPMObject" outgoingLinks="//@links.0" constraints="122,50,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMProcess" incomingLinks="//@links.0" constraints="255,131,50,50" name="&lt;...>"/>
+</opm:OPMObjectProcessDiagram>

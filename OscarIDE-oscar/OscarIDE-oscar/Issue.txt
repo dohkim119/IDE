@@ -1,0 +1,34 @@
+Bugs in Structural Links.
+-> if user scrolls scenes to outside, then link attached to triangle that symbolize structural link deattched weridly. 
+   Maybe refresh process has bugs...
+
+-> Found bugs. Structuralaggregator anchor's getLocation method returns relative coordinates from viewer, 
+   but in anchor's getLocation method, it uses getBound method which returns absolute coordinates.
+   to fix it, I have to get coordinate of viewer's left top to change absolute coordinates to relative coordinates,
+   but how to do that..? I can't find document which describe how to get viewer object in figure object...
+
+****** completed. use of viewport(to get Viewport, repeat draw2d's IFigure getParent() to find Viewport)
+       and viewport.getLocation() to get Viewport's absolute coordinates, 
+       then we can translate absolute coordinates to relative coordinates against view port.
+
+
+
+
+Contain functionality has bugs. (contained link overdrawed at outside of containing object,
+     and contained object hided in containing object if user moves containing object or resize containing object)
+
+
+-> have bugs about container (with bendPoints. I have to fix it by altering moving commands to change it's bendPoints.)
+
+
+List<OPMLink> linkList = childNode.getIncomingLinks(); 
+		linkList.addAll(childNode.getOutgoingLinks()); 
+		for(OPMLink link : linkList) { 
+			List<Point> points = link.getBendpoints();
+			if(points.size() > 0) {
+				for (Point p : points) {
+					p.setLocation(p)
+				}
+			}
+		}
+		childNode.getIncomingLinks();

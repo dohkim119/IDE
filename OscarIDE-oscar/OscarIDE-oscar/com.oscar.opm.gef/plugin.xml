@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.oscar.opm.gef.editorID"
+         name="OPM GEF Editor"
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.oscar.opm.gef.editor.OPMGraphicalEditor"
+            contributorClass="com.oscar.opm.gef.editor.OPMGraphicalEditorActionBarContributor"
+            default="false"
+            extensions="opm"
+            id="com.oscar.opm.gef.editorID"
+            name="OPM GEF Editor">
+      </editor>
+   </extension>
+
+</plugin>

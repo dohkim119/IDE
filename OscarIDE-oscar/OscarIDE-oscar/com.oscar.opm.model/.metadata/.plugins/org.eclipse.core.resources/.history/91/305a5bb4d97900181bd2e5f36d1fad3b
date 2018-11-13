@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opm:OPMObjectProcessDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opm="www.rubis.com">
+  <things xsi:type="opm:OPMObject" constraints="494,314,176,222" name="RUBiS"/>
+  <things xsi:type="opm:OPMProcess" constraints="102,208,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="131,420,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="50,50,50,50" name="O1"/>
+  <things xsi:type="opm:OPMProcess" constraints="522,43,50,50" name="ㅋㅋㅋ"/>
+  <things xsi:type="opm:OPMProcess" constraints="639,70,76,80" name=""/>
+  <things xsi:type="opm:OPMProcess" constraints="612,231,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="787,47,128,186" name="asdasd"/>
+  <things xsi:type="opm:OPMObject" constraints="316,242,129,256" name="bsbsbsss"/>
+  <things xsi:type="opm:OPMObject" constraints="320,88,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="167,62,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="68,314,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMProcess" constraints="39,428,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="60,134,50,50" name="&lt;...>"/>
+</opm:OPMObjectProcessDiagram>

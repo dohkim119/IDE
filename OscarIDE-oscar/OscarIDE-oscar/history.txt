@@ -1,0 +1,14 @@
+18/07/23 : turn off containment functionality because we don't use this. if you want to use this functionality, 
+        please check OPMContainerXYLayoutPolicy.java 's getCreateCommand() method in com.oscar.opm.gef.editor.policy package.
+
+18/07/24 : add OscarCode model to use Code file. it has redline Border, and has link to real file.
+           now I have to implement code modify functionality with code editor.
+           (Let's implement OscarCodeModifyAction.java to modify code with context menu)
+
+18/07/24 : add FileUtil.java in com.oscar.opm.gef.utils package to work with file more easily.
+           add change codePath functionality in OscarCode model by using contextMenu.
+           
+18/07/25 : add code modify functionality.
+
+18/07/26 : modify com.oscar.opm.gef 's MANIFEST.MF file to automatly set plugin dependencies.
+           and fix bug in StructuralAggregator's ConnectionAnchor

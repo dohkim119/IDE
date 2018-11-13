@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opm:OPMObjectProcessDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opm="www.rubis.com">
+  <things xsi:type="opm:OPMObject" constraints="120,83,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMProcess" constraints="367,116,50,50" name="&lt;...>"/>
+  <things xsi:type="opm:OPMObject" constraints="82,187,50,50" name="&lt;...>"/>
+  <links/>
+</opm:OPMObjectProcessDiagram>
