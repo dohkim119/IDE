@@ -10,7 +10,7 @@
       <!-- @generated opm -->
       <factory
             uri="www.rubis.com"
-            class="opm.provider.OpmItemProviderAdapterFactory"
+            class="com.oscar.opm.model.provider.OPMItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
